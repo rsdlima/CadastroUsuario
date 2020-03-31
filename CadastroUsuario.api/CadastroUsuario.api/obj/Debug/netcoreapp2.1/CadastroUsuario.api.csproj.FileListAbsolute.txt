@@ -1,0 +1,14 @@
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\bin\Debug\netcoreapp2.1\CadastroUsuario.api.deps.json
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\bin\Debug\netcoreapp2.1\CadastroUsuario.api.runtimeconfig.json
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\bin\Debug\netcoreapp2.1\CadastroUsuario.api.runtimeconfig.dev.json
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\bin\Debug\netcoreapp2.1\CadastroUsuario.api.dll
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\bin\Debug\netcoreapp2.1\CadastroUsuario.api.pdb
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\obj\Debug\netcoreapp2.1\CadastroUsuario.api.csproj.CoreCompileInputs.cache
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\obj\Debug\netcoreapp2.1\CadastroUsuario.api.RazorAssemblyInfo.cache
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\obj\Debug\netcoreapp2.1\CadastroUsuario.api.RazorAssemblyInfo.cs
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\obj\Debug\netcoreapp2.1\CadastroUsuario.api.AssemblyInfoInputs.cache
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\obj\Debug\netcoreapp2.1\CadastroUsuario.api.AssemblyInfo.cs
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\obj\Debug\netcoreapp2.1\CadastroUsuario.api.RazorTargetAssemblyInfo.cache
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\obj\Debug\netcoreapp2.1\CadastroUsuario.api.dll
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\obj\Debug\netcoreapp2.1\CadastroUsuario.api.pdb
+C:\Users\rodrigolima\source\repos\CadastroUsuario.api\CadastroUsuario.api\obj\Debug\netcoreapp2.1\CadastroUsuario.api.csprojAssemblyReference.cache

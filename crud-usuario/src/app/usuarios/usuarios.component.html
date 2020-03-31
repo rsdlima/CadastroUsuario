@@ -1,0 +1,110 @@
+<!-- Material form register -->
+<div class="card">
+
+  <h5 class="card-header info-color white-text text-center py-4">
+      <strong>Cadastro de Usuário</strong>
+  </h5>
+
+  <!--Card content-->
+  <div class="card-body px-lg-5 pt-0">
+
+      <!-- Form -->
+      <form class="text-center" style="color: #757575;" action="#!">
+        <div class="form-row">
+            <div class="col">
+            <!-- Nome -->
+            <div class="md-form mt-0">
+                <label for="nome">Nome</label>
+                 <input type="text" class="form-control" name="name" [(ngModel)]="usuario.nome">
+                    
+            </div>
+            </div>
+            <div class="col">
+            <!-- Data -->
+            <div class="md-form">
+                <label for="materialRegisterFormDate">Data de nascimento</label>
+                <input type="date" id="materialRegisterFormDate" class="form-control" name="dataNascimento" [(ngModel)]="usuario.dataNascimento" aria-describedby="materialRegisterFormPhoneHelpBlock">
+                    
+            </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col">
+            <!-- Email -->
+            <div class="md-form mt-0">
+                <label for="materialRegisterFormEmail">E-mail</label>
+                <input type="email" id="materialRegisterFormEmail" class="form-control" name="email" [(ngModel)]="usuario.email">
+            </div>
+            </div>
+            <div class="col">
+            <!-- Senha -->
+            <div class="md-form">
+                <label for="materialRegisterFormPassword">Senha</label>
+                <input type="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock" name="senha" [(ngModel)]="usuario.senha">
+                
+            </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <!-- Sexo -->
+                <div class="form-group">
+                    <label for="sexo">Sexo</label>
+                    <select class="form-control" name="sexo" [(ngModel)]="usuario.sexoId">
+                        <option value="1">Feminino</option>
+                        <option value="2">Masculino</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col">
+                <!-- Ativo -->
+                <div class="form-check">
+                    <label class="form-check-label" for="materialRegisterFormNewsletter">Ativo</label>
+                    <input type="checkbox" class="form-check-input" id="materialRegisterFormNewsletter" name="ativo" [(ngModel)]="usuario.ativo" checked="true">
+                </div>
+            </div>
+        </div>
+          <!-- Salvar -->
+          <button class="btn btn-info btn-block my-4" type="button" (click)="cadastrar()">Cadastrar</button>
+
+          <hr>
+
+      </form>
+      <!-- Form -->
+
+  </div>
+
+</div>
+<!-- Material form register -->
+
+<div class="card">
+
+    <h5 class="card-header info-color white-text text-center py-4">
+        <strong>Relatório de Usuários Cadastrados</strong>
+    </h5>
+
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Data de Nascimento</th>
+                <th>E-mail</th>
+                <th>Sexo</th>
+                <th>Ativo</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let usuario of usuarios">
+                <td>{{usuario.nome}}</td>
+                <td>{{usuario.dataNascimento}}</td>
+                <td>{{usuario.email}}</td>
+                <td>{{usuario.sexoId}}</td>
+                <td>{{usuario.ativo}}</td>
+                <td><button (click)="atualizar()">Editar</button>
+                <button (click)="remover(usuario.id)">Excluir</button></td>
+            </tr>
+        </tbody>
+      </table>
+</div>
+
